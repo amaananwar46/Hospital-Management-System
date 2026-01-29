@@ -8,7 +8,6 @@ import MedicineForm from "./MedicineForm";
 import MedicineList from "./MedicineList";
 import MedicineShop from "./MedicineShop";
 import PurchaseHistory from "./PurchaseHistory";
-import Inventory from "./Inventory";
 
 export default function Dashboard({ activeModule }) {
   if (activeModule === "patients") {
